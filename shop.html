@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" 
+        rel="stylesheet"/> <!--For our Lobster font that we downloaded from Google Fonts-->
+
+        <!--Icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet preload">
+
+        <!--MAIN CSS-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Glitterati Nails Shop Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="images/faviconGlobe128pxh.png"/>
+    </head>
+    <body>
+
+        <!--Scroll Top-->
+        <a href="" class="scrolltop" id="scroll-top"><i class="fa-solid fa-chevron-up"></i></a>
+
+        <!--Header-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+              <a href="index.html" class="nav__logo" id= "logo__img"><img src="/images/faviconGlobe128pxh.png" alt="">
+
+                <div class="nav__menu" id ="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="aboutAndContact.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="team.html" class="nav__link">Team</a></li>
+                        <li class="nav__item"><a href="shop.html" class="nav__link active-link">Shop</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link"><i class = "fas fa-shopping-cart"></i></a></li>
+                        <li class="nav__item"><a href="booking.html" class="button">Book Now</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class = "l-main">
+            <!-----ABOUT----->
+            <section class = "about section bd-container" id="#">
+                <span class="section-subtitle">Get the glamourous look from home</span>
+                <h2 class="section-title">Glitterati Shop</h2>
+                    
+                      <!-- Shop grid images -->
+                    <section class="section">
+                     <div class="title">
+                        <h1><span>Shop</span> Sustainable</h1>
+                     
+                      <div class="cat container">
+                        <div class="item item-1">
+                          <img src="./images/manicure-at-home-shop-image.jpg" alt="" />
+                          <img src="./images/Mani-Pedi-shop-image.jpg" alt="" />
+                          <img src="./images/product-price-polish.jpg" alt="" />
+                          
+                        </div>
+                        <div class="item item-2">
+                            <img src="images/manicure-at-home-kit-shop-page.jpg" alt="Colour">
+                          
+                        </div>
+
+                        <div class="item item-3">
+                          <img src="./images/Eco-friendly-nailset.jpg" alt="" />
+                        </div>
+                        <div class="item item-4">
+                          <img src="./images/sustainable-nail-polish-shop-img.jpg" alt="" />
+                        </div>
+                      
+                </div>
+                <div>
+                  <p class="about__description"><span>Glimmer and Glitter without the litter!<br></span> All nail products sourced in our shop are 100% natural, locally sourced,
+                    with biodegradable packaging. This is our promise to you.</p>
+              </div>
+            </section>
+            
+            <!----POP-UP MODAL 20% OFF-->
+            <section class = "modal container">
+              <button class = "modal__button" id="open-modal">
+                  Click for a gift
+                  <i class="fa-solid fa-gift"></i>
+              </button>
+      
+              <div class = "modal__container" id = "modal-container">
+                  <div class = "modal__content">
+                      <div class="modal__close close-modal" title = "Close">
+                       <i class="fa-solid fa-x"></i>
+                      </div>
+      
+                      <img src="/images/20offPromo.jpg" alt="" class = "modal__img">
+      
+                      <h1 class = "modal__title">20% off online store</h1>
+                      <p class="modal__description">If you book a nail appointment today!</p>
+      
+                      <!--<button class="modal__button modal__button-width">
+                          Book Now
+                      </button>-->
+      
+                      
+                      <a href="/booking.html" class="modal__button modal__button-width">Book Now</a>
+                      
+      
+                      <button class="modal__button-link close-modal">
+                          Close
+                      </button>
+                  </div>
+      
+              </div>
+          </section>
+
+          <br>
+          <br>
+          
+          <section class="section services">
+            <div class="service-center container">
+              <div class="service">
+                <span class="icon"><i class="fas fa-tags"></i></span>
+                <h4>Free Shipping</h4>
+                <span class="text">On orders over €25</span>
+              </div>
+        
+              <div class="service">
+                <span class="icon"><i class="far fa-credit-card"></i></span>
+                <h4>Secure Payments</h4>
+                <span class="text">With authorisation</span>
+              </div>
+        
+              <div class="service">
+                <span class="icon"><i class="fas fa-money-bill-wave"></i></span>
+                <h4>14-Day Returns</h4>
+                <span class="text">We're only happy if you're happy!</span>
+              </div>
+        
+              <div class="service">
+                <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                <h4>24/7 Support</h4>
+                <span class="text">For any of your nail woes</span>
+              </div>
+            </div>
+          </section>
+
+              <!-- New Arrivals -->
+  <section class="section">
+    <div class="title">
+      <h2><span>New</span> Arrivals</h2>
+      <p> Shop the exclusive 100% biodegradable Benecos range</p>
+      <a href="#" class="button">Find out more</a>
+    </div>
+    <div class="product-center container">
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Benecos_flamingo_product.png" alt="" />
+        </div>
+        <p>Benecos Polish in "Flamingo"</p>
+        </br>
+        <h3>Vegan and cruelty-free</h3>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">€11</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Benecos_crystal_product.png" alt="" />
+        </div>
+        <p>Benecos Polish in "Crystal"</p>
+        <br>
+        <h3>Affordable and biodegradable</h3>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price">€9</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Benecos_RockIt_product.png" alt="" />
+        </div>
+        <p>Benecos Polish in "Rock It"</p>
+        <br>
+        <h3>Free from any harmful chemicals and parabens</h3>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">€10</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Benecos_vintage_red_product.png" alt="" />
+        </div>
+        <p>Benecos Polish in "Vintage Red"</p>
+        <br>
+        <h3>Natural ingredients</h3>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">€12</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Products -->
+  <section class="section">
+    <div class="title">
+      <h1>Popular <span>Products</span></h1>
+    </div>
+    <div class="product-center container">
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Nails-Inc-polish-product.png" alt="" />
+        </div>
+        <p>Nails Inc. nail polish in "Blush"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">€10</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/opi-solar.png" alt="" />
+        </div>
+        <p>OPI nail polish in "Solar"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price">€10</div>
+        <a href="#" class="button">Add to cart</a>
+      </div> 
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Orly-polish-product.png" alt="" />
+          <p>Orly nail polish in "Pearl"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">€15</div>
+        <a href="#" class="button">Add to cart</a>
+        </div>
+        </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/barrym-product.png" alt="" />
+        </div>
+        <p>Barry M Nail Polish in "Forest"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">€9</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Nails. Inc NailKale.png" alt="" />
+        </div>
+        <p>Nails Inc. nail polish in "Teal"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">€16</div>
+        <a href="#" class="button">Add to cart</a>
+      </div>
+
+      <div class="product">
+        <div class="img-cover">
+          <img src="./images/Shoreditch-nail-product.png" alt="" />
+        </div>
+        <p>Shoreditch nail polish in "Ruby"</p>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price">€13</div>
+        <a href="#" class="button">Add to cart</a>
+      </div> 
+
+
+     
+  </section>
+        </main>    
+
+            <!--FOOTER-->
+        <footer class="footer">
+            <div class="footer__description bd-container">
+                <h1 class="footer__title">Glitterati Nail Bar</h1>
+                <p class="footer__description">This is the official website of Glitterati Nail Bar.
+                    Contact us here or on any of our socials- We're up for some royal-tea and chats ;)
+                </p>
+
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                      <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                      </span>
+                      7 Dream House, Dreammy street, 7131 Dublin, Ireland
+                    </div>
+                    <div>
+                      <span>
+                        <i class="far fa-envelope"></i>
+                      </span>
+                      Glitterati@gmail.com
+                    </div>
+                    <div>
+                      <span>
+                        <i class="fas fa-phone"></i>
+                      </span>
+                      01-456284512
+                    </div>
+                    <div>
+                      <span>
+                        <i class="far fa-paper-plane"></i>
+                      </span>
+                      Dublin, Galway, Cork, Kildare
+                    </div>
+                  </div>
+
+            
+                <div class="footer__social">
+                    <a href="#" class="footer__link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-blogger-b"></i></a>
+                </div>
+
+                <p class="footer__copy">&#169; 2021 Glitterati. All Rights Reserved</p>
+            </div>
+        </footer>
+
+        <!--MIXITUP FILTER-->
+        <script src="/js/mixitup.min.js"></script>
+
+        <!--SWIPER JS-->
+        <script src="/js/swiper-bundle.min.js"></script>
+
+        <!--GSAP FOR HOME PAGE ANIMATION-->
+        <script src="/js/gsap.min.js"></script>
+
+        <!--MAIN JS-->
+        <script src="/js/app.js"></script>
+
+        <!--POPUP MODAL JS-->
+        <script src="/js/popup.js"></script>
+    
+    </body>
+</html>
